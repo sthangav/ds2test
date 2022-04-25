@@ -1,0 +1,81 @@
+{
+    "dnslookuptimemsec": [
+        "5",
+        [
+            "min",
+            "max",
+            "sum",
+            "count"
+        ]
+    ],
+    "bytes": [
+        "5",
+        [
+            "max",
+            "sum",
+            "count"
+        ]
+    ],
+    "objsize": [
+        "5",
+        [
+            "min",
+            "max",
+            "sum",
+            "count"
+        ]
+    ],
+    "uncompressedsize": [
+        "5",
+        [
+            "sum"
+        ]
+    ],
+    "transfertimemsec": [
+        -1,
+        [
+            "sum"
+        ]
+    ],
+    "totalbytes": [
+        -1,
+        [
+            "min",
+            "max",
+            "sum",
+            "mean"
+        ]
+    ],
+    "tlsoverheadtimemsec": [
+        -1,
+        [
+            "min",
+            "max",
+            "sum"
+        ]
+    ],
+    "overheadbytes": [
+        -1,
+        [
+            "min",
+            "max",
+            "sum"
+        ]
+    ],
+    "totalbillablebytes": [
+        -1,
+        [
+            "min",
+            "max",
+            "sum"
+        ]
+    ],
+    "custom-func": [
+        "cal_stat_count",
+        "cal_traffic_volume",
+        "find_cachestatus",
+        "OffloadRate",
+        "originResponsetime",
+        "getuserAgent"
+    ]
+}

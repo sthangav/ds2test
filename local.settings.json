@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=hotchips;AccountKey=P8uIDQMu6OI71IU12BR2U31R6QXRAAsTm+etU5oeucUz0KspME1PU/xWgSdjai+11FOw1gO7JxFmUljqNQPH1A==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "hotchips_STORAGE": "DefaultEndpointsProtocol=https;AccountName=hotchips;AccountKey=P8uIDQMu6OI71IU12BR2U31R6QXRAAsTm+etU5oeucUz0KspME1PU/xWgSdjai+11FOw1gO7JxFmUljqNQPH1A==;EndpointSuffix=core.windows.net",
+    "AzureCosmosDBConnectionString":"AccountEndpoint=https://custdb.documents.azure.com:443/;AccountKey=AKqZVuH1Wr8s0c5isv78gG9U9pCaqMs3CmSaibSldXbx77Wf8FDj0qxu2aev5ynMHk7ELZYsPj0Ms1ky8kXDzA==;"
+  
+  }
+}

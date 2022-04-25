@@ -1,0 +1,46 @@
+{
+    "cal_stat_count": {
+        "required-fields": [
+            "statuscode"
+        ],
+        "description": "Show Stat Count of HTTP requests",
+        "aggregatable-over-time": 1
+    },
+    "cal_traffic_volume": {
+        "required-fields": [
+            "totalbytes"
+        ],
+        "description": "Get Total Traffic Volume",
+        "aggregatable-over-time": 1
+    },
+    "find_cachestatus": {
+        "required-fields": [
+            "cachestatus"
+        ],
+        "description": "Show Cache Status",
+        "aggregatable-over-time": 1
+    },
+    "OffloadRate": {
+        "required-fields": [
+            "cachestatus"
+        ],
+        "description": "Get Offload Rate",
+        "aggregatable-over-time": 0
+    },
+    "originResponsetime": {
+        "required-fields": [
+            "cachestatus",
+            "cacherefreshsrc",
+            "turnaroundtimemsec"
+        ],
+        "description": "Get Response Time",
+        "aggregatable-over-time": 0
+    },
+    "getuserAgent": {
+        "required-fields": [
+            "ua"
+        ],
+        "description": "Get User Agent",
+        "aggregatable-over-time": 0
+    }
+}

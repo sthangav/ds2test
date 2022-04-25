@@ -1,0 +1,14 @@
+{
+    "reqtimesec": [
+        -1,
+        [
+            "min",
+            "max"
+        ]
+    ],
+    "custom-func": [
+        "statuscode",
+        "totalbytes",
+        "cachestatus"
+    ]
+}
